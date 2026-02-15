@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.form, .list {
+  width: 45%;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
